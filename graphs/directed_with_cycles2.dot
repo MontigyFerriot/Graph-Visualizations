@@ -1,0 +1,17 @@
+digraph G {
+  node [shape="doublecircle" color="#000000" fillcolor="#228B22" style=filled];
+  edge [color="#708090"];
+  "A" -> "B";
+  "B" -> "C";
+  "C" -> "A";
+  "B" -> "D";
+  "D" -> "A";
+  "D" -> "E";
+  "D" -> "F";
+  "F" -> "E";
+  "E" -> "G";
+  "G" -> "H";
+  "H" -> "E";
+  "B" -> "H";
+}
+

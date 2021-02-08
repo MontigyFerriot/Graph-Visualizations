@@ -1,0 +1,32 @@
+graph G {
+  node [shape="doublecircle" color="#778899" fillcolor="#4dd2ff" style=filled];
+  edge [color="#708090"]
+  "A" -- "B";
+  "A" -- "C";
+  "A" -- "D";
+  "A" -- "E";
+  "A" -- "F";
+  "A" -- "G";
+  "A" -- "H";
+
+  "B" -- "I";
+  "B" -- "J";
+  "B" -- "K";
+  "I" -- "L";
+  "I" -- "M";
+
+  "C" -- "O";
+  "C" -- "P";
+
+  "D" -- "R";
+  "D" -- "S";
+
+  "E" -- "T";
+
+  "F" -- "U";
+  "F" -- "W";
+  "F" -- "X";
+  "W" -- "Y";
+  "W" -- "Z";
+}
+
